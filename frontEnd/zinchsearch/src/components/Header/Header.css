@@ -1,0 +1,48 @@
+.container {
+    padding: 30px;
+    display:flex;
+    align-items: center;
+   
+    border: solid;
+}
+.header_left{
+ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    gap: 5px;;
+    
+}
+
+.imagen1{
+    max-height: 30px;
+    padding-right: 10px;
+}
+
+span{
+    align-items: center;
+    align-content: center;
+    text-size-adjust: 4px;
+    font-style: oblique;
+    font-size: x-large;
+}
+
+.header_rigth{
+    overflow: hidden;
+    width: 100%;
+    padding-left: 5px;
+}
+
+.imagen2 {
+    max-height: 40px;
+    padding-right: 10px;
+}
+
+.imagen3 {
+    max-height: 40px;
+    
+}
+
+
+

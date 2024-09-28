@@ -1,0 +1,64 @@
+/* Estilo general para la tabla */
+/* Estilo para la tabla completa */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px; /* Espaciado entre filas */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  /* Estilo para las celdas y bordes */
+  th, td {
+    padding: 12px 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Bordes entre filas */
+    overflow: hidden;
+    
+  }
+  
+  /* Estilo para los títulos */
+  th {
+    background-color: #6b6a61;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Alternar color de filas */
+  tr:nth-child(even) {
+    background-color: #eaeaea;
+  }
+  
+  /* Hover en filas para mejorar interacción */
+  tr:hover {
+    background-color: #d9cff7;
+  }
+  
+  /* Ajuste de ancho de columnas */
+  td:first-child {
+    width: 20%;
+    
+  }
+
+  tbody {
+    display: block;
+    max-height: 100vh;
+    overflow-y: auto;
+  }
+  
+  thead, tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed; /* Para que las columnas tengan un tamaño fijo */
+    overflow: hidden;
+  }
+  
+  thead {
+    width: calc(100% - 1em); /* Ajuste para el scroll */
+    overflow: hidden;
+  }
+  
+  
